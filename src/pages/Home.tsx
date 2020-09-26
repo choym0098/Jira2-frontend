@@ -48,13 +48,12 @@ const dummyProjects: Project[] = [
 /**
  * @param {string} projectId - Project Id of the redirected page
  *
- * @return {void}
+ * @return {void} - TODO
  */
 function goToProject(projectId: string) {
-
   return () => {
     console.log(`project Id is ${projectId}`);
-  }
+  };
 }
 
 // TODO: make this a separate component under ../components

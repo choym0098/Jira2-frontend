@@ -6,9 +6,9 @@ import {
   Link
 } from "react-router-dom";
 import { Home } from './pages/Home'
-import Login from './components/Login'
-import Signup from './components/Signup'
-import UserBoard from './components/UserBoard'
+import Login from './pages/Login'
+import Signup from './pages/Signup'
+import UserBoard from './pages/UserBoard'
 
 
 export default function Routes() {
