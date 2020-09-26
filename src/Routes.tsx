@@ -5,7 +5,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import Home from './components/Home'
+import { Home } from './pages/Home'
 import Login from './components/Login'
 import Signup from './components/Signup'
 import UserBoard from './components/UserBoard'
