@@ -3,33 +3,18 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from "react-router-dom";
 import { Home } from './pages/Home'
 import Login from './pages/Login'
 import Signup from './pages/Signup'
 import UserBoard from './pages/UserBoard'
+import Header from './components/Header'
 
 
 export default function Routes() {
   return (
     <Router>
-      <div>
-        <nav>
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/login">Login</Link>
-            </li>
-            <li>
-              <Link to="/signup">Sign up</Link>
-            </li>
-            
-          </ul>
-        </nav>
-      </div>
+      <Header></Header>
 
       <Switch>
         <Route path='/' exact component={Home} />
