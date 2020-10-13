@@ -1,14 +1,14 @@
-import React from "react";
+import React from 'react';
 import {
   BrowserRouter as Router,
   Switch,
   Route,
-} from "react-router-dom";
-import { Home } from './pages/Home'
-import Login from './pages/Login'
-import Signup from './pages/Signup'
-import UserBoard from './pages/UserBoard'
-import Header from './components/Header'
+} from 'react-router-dom';
+import {Home} from './pages/Home';
+import Login from './pages/Login';
+import Signup from './pages/Signup';
+import UserBoard from './pages/UserBoard';
+import Header from './components/Header';
 
 
 export default function Routes() {
